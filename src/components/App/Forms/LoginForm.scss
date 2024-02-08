@@ -1,0 +1,60 @@
+@use '../../../styles//variables' as v;
+
+.form {
+  &-element {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+
+    .contener {
+      padding: 2rem;
+      position: relative;
+
+      &-input {
+        font-size: 2.2rem;
+        width: 35rem;
+
+        &__button {
+          background-color: white;
+          border: 0;
+          position: absolute;
+          right: 2.1rem;
+          top: 35%;
+          width: 40px;
+        }
+
+        &__logo {
+          position: absolute;
+          top: 35%;
+          right: 3rem;
+        }
+      }
+    }
+  }
+
+  &-button {
+    background-color: v.$divider;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .form {
+    .contener {
+      width: 30rem;
+
+      &-input {
+        font-size: 2rem;
+        width: 100%;
+      }
+    }
+
+    &-button {
+       width: 85%;
+    }
+  }
+}

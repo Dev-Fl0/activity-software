@@ -1,5 +1,16 @@
 @use '../../styles/variables' as v;
 
 .App {
+  background-color: v.$color-bg;
+  height: 100vh;
+  position: relative;
   text-align: center;
+  width: 100vw;
+}
+
+@media (max-width: 1090px) {
+  .App {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }

@@ -1,0 +1,63 @@
+@use '../../../../styles/variables' as v;
+
+.home-content {
+  align-items: center;
+  background-color: v.$color-secondary;
+  border: 1px solid v.$color;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  margin: 8rem 5rem 0rem auto;
+  width: 70%;
+  overflow: auto;
+
+  .home {
+    &-list {
+      &__link {
+        font-size: 3rem;
+        padding: 0 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1090px) {
+  .home-content {
+    margin: 5rem auto;
+    height: 85vh;
+    width: 90vw;
+
+    .home {
+      &-list {
+        &__link {
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .home-content {
+    .home {
+      &-list {
+        &__link {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .home-content {
+    .home {
+      &-list {
+        &__link {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+

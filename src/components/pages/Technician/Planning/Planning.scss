@@ -1,0 +1,35 @@
+@use '../../../../styles//variables' as v;
+
+.planning-content {
+  align-items: center;
+  background-color: v.$color-secondary;
+  border: 1px solid v.$color;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  margin: 8rem 5rem 0rem auto;
+  width: 70%;
+  overflow: auto;
+}
+
+.calendar {
+ width: 100%;
+}
+
+@media (max-width: 1090px) {
+  .planning-content {
+    margin: 5rem auto;
+    height: 85vh;
+    width: 90vw;
+  }
+}
+
+@media (max-width: 780px) {
+  .planning-content {
+  }
+}
+
+@media (max-width: 450px) {
+  .planning-content {
+  }
+}
