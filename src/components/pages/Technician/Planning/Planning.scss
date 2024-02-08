@@ -13,7 +13,7 @@
 }
 
 .calendar {
- width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 1090px) {
@@ -21,15 +21,5 @@
     margin: 5rem auto;
     height: 85vh;
     width: 90vw;
-  }
-}
-
-@media (max-width: 780px) {
-  .planning-content {
-  }
-}
-
-@media (max-width: 450px) {
-  .planning-content {
   }
 }
