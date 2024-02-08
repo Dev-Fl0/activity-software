@@ -18,7 +18,7 @@ export default function InitApp() {
   // Si userConnect est null, le useEffect redirigera l'utilisateur et cette partie du code ne sera pas exécutée
   return (
     <>
-      <Navbar usersData={null} />
+      <Navbar />
       <Main>
         <Outlet />
       </Main>
