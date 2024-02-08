@@ -27,7 +27,7 @@ module.exports = {
       rules: { 'no-param-reassign': ['error', { props: false }] },
     },
   ],
-  plugins: ['react', '@typescript-eslint', 'prettier', 'rollup.config.js'],
+  plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     'react/react-in-jsx-scope': 0,
     'react/jsx-filename-extension': [

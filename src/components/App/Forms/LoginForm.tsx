@@ -1,3 +1,7 @@
+'use client';
+
+// client component browser directive (React RFC-0227)
+
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';

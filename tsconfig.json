@@ -20,7 +20,6 @@
     "vite.config.ts",
     ".eslintrc.cjs",
     "src",
-    "rollup.config.js",
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

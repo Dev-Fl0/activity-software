@@ -1,3 +1,6 @@
+'use client';
+
+// client component browser directive (React RFC-0227)
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 

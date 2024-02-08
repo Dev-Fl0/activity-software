@@ -1,3 +1,7 @@
+'use client';
+
+// client component browser directive (React RFC-0227)
+
 import React, { useContext } from 'react';
 import { Avatar } from '@chakra-ui/react';
 import { UserContext } from '../../../../utils/context/userContext';
