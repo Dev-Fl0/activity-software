@@ -1,7 +1,3 @@
-'use client';
-
-// client component browser directive (React RFC-0227)
-
 import { useNavigate } from 'react-router-dom';
 import {
   Tabs,
