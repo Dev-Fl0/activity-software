@@ -1,3 +1,7 @@
+'use client';
+
+// client component browser directive (React RFC-0227)
+
 import React, { useContext } from 'react';
 import { Avatar } from '@chakra-ui/react';
 import { UserContext } from '../../../../utils/context/userContext';
@@ -7,7 +11,6 @@ import './Profil.scss';
 export default function Profil() {
   const { userConnect } = useContext(UserContext);
   const user = userConnect;
-  console.log(userConnect);
 
   return (
     <div className="profil-content">

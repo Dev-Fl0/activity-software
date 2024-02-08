@@ -1,3 +1,7 @@
+'use client';
+
+// client component browser directive (React RFC-0227)
+
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/react';
 
 import PastTasks from './PastTasks';
